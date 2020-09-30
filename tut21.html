@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            /* adjust the elements in their parent elemnent */
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0;
+        }
+
+        .container {
+            background: blue;
+            height: 900px;
+            width: 900px;
+            border: 2px solid orange;
+            margin: auto;
+        }
+
+        .item {
+            border: 2px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+        }
+        #fruits {
+            /* float is used for positioning the element */
+            float: left;
+            width: 42%;
+        }
+
+        #computer {
+            float: left;
+            width: 42%;
+        }
+
+
+        #stationary {
+            float: left;
+            width: 42%;
+        }
+        
+        p, h3{
+            text-align: left;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate tenetur vero inventore reprehenderit?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+        <p id="fruitspara" class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate tenetur vero inventore reprehenderit?
+        </p>
+        </div>
+        <div id="stationary" class="item">
+        <h3>stationary</h3>
+        <p id="fruitspara" class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate tenetur vero inventore reprehenderit?
+        </p>
+     </div>
+    </div>
+</body>
+
+</html>
